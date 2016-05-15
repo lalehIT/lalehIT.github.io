@@ -4,9 +4,14 @@ email: lk222qb@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
   This is a website created by me, Laleh. It's really awesome. Yay.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: lalehit
+url: "http://lalehit.github.io/"
 github_username:  lalehit
+
+# Pagination
+paginate: 5
+
+gems:
+
 
 # Build settings
 markdown: kramdown
