@@ -7,11 +7,5 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lalehit.github.io/"
 github_username:  lalehit
 
-# Pagination
-paginate: 5
-
-gems:
-
-
 # Build settings
 markdown: kramdown
