@@ -8,10 +8,14 @@ comments: true
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <hr>
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          {{ post.content | truncatewords: 40 }}
+
+          {{ post.content | truncatewords: 30 }}
           <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+
       </li>
     {% endfor %}
   </ul>
