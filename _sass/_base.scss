@@ -129,12 +129,12 @@ pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    border-radius: 20px;
     background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 5px 5px;
 }
 
 pre {
@@ -143,8 +143,8 @@ pre {
 
     > code {
         border: 0;
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
 
